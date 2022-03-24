@@ -1,0 +1,28 @@
+{
+  "name": "graphql-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thunberg087/GraphQL-Tester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thunberg087/GraphQL-Tester/issues"
+  },
+  "homepage": "https://github.com/Thunberg087/GraphQL-Tester#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@vercel/ncc": "^0.33.3"
+  }
+}
